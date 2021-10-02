@@ -90,6 +90,9 @@ apply_gerrit_cl_commit refs/changes/48/1295748/1 6ec651f12a9b67a9d2e41c2fe4d9a71
 # SystemUI: Implement burn-in protection for status-bar/nav-bar items
 # Change-Id: I828dbd4029b4d3b1f2c86b682a03642e3f9aeeb9
 apply_gerrit_cl_commit refs/changes/40/824340/3 fcc013282943c935af8225a914a525e996d42866
+# Missed call LED pulse notification is... missing
+# Change-Id: If01e8f595affc874b2c9fee82a48283b6aeaceda
+apply_gerrit_cl_commit refs/changes/45/1842145/1 9a5c6db3c540e2a24dbf9364abf448025260a1f0
 popd
 
 enter_aosp_dir build/make build
